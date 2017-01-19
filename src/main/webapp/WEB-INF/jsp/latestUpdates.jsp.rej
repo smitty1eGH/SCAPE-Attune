@@ -1,0 +1,101 @@
+--- src/main/webapp/WEB-INF/jsp/latestUpdates.jsp	1969-12-31 19:00:00.000000000 -0500
++++ src/main/webapp/WEB-INF/jsp/latestUpdates.jsp	2016-12-19 15:07:58.000000000 -0500
+@@ -0,0 +1,98 @@
++<%--
++  Created by IntelliJ IDEA.
++  User: aaronburrell
++  Date: 6/13/16
++  Time: 7:58 AM
++  To change this template use File | Settings | File Templates.
++--%>
++<%@ page contentType="text/html;charset=UTF-8" language="java" %>
++<!DOCTYPE html>
++<html>
++<head>
++    <title>Latest Updates</title>
++    <style>
++    div.container {
++    width: 80%
++    }
++
++    #auditTable .baseballCardLink:hover {
++    	text-decoration: underline;
++    	cursor: pointer;
++    	color: #23527c;
++    	outline: 0;
++    }
++
++    #auditTable .baseballCardLink:active {
++    	outline: 0;
++    }
++    </style>
++    <script type="text/javascript">
++    $(document).ready(function() {
++
++        var base_url = window.location.origin;
++        var hostname = window.location.hostname;
++        var port = ':8780';
++        var mainPort = ':8180';
++        var scheme = 'http://';
++        $.getJSON(scheme + hostname + port + '/attune/services/audit', function (data) {
++            console.log(data);
++            var audit = data;
++            var txt = "";
++            console.log(audit);
++            for (x in audit) {
++                txt += "<tr><td>"+audit[x].type+"</td><td><a class='baseballCardLink' href='#' data-entity="+audit[x].type+" data-name="+audit[x].name+">"+audit[x].name+"</a></td><td>"+(new Date(audit[x].timestamp)).toUTCString()+"</td><td>"+audit[x].action+"</td></tr>";
++            }
++
++            if(txt != ""){
++                $("table tbody").append(txt);
++                $('#auditTable').DataTable({
++                    "order": [[2,"desc"]]
++                });
++            }
++        });
++    });
++
++    $('#auditTable').click('.baseballCardLink', function(event) {
++    		    	if (event.target.getAttribute('data-entity')) {
++    		    		var baseballEntity = event.target.getAttribute('data-entity');
++    			    	var baseballName = event.target.getAttribute('data-name');
++
++    			    	localStorage.setItem("originalEntity", baseballEntity);
++    			    	localStorage.setItem("originalName", baseballName);
++
++    					$('#baseballCardModal').modal('show');
++
++    					var url = "baseballCard.exec?entity="+encodeURIComponent(baseballEntity)+"&name="+encodeURIComponent(baseballName);
++
++    					$("#baseballContent").load(url);
++    		    	}
++    		    });
++
++    </script>
++</head>
++<body>
++<div class="audit-container" class="container">
++        <div class="row">
++			<div class="col-md-12">
++				<h1 class="page-title">Latest Updates</h1>
++			</div>
++		</div>
++    <div class="tab-content">
++    <div id="latestUpdates">
++    <table id="auditTable" class="table table-striped table-bordered" cellspacing="0" width="100%">
++        <thead>
++        <tr>
++            <th>Entity Type</th>
++            <th>Entity Name</th>
++            <th>Date Time</th>
++            <th>Action</th>
++        </tr>
++        </thead>
++        <tbody>
++        </tbody>
++    </table>
++    </div>
++    </div>
++</div>
++</body>
++</html>

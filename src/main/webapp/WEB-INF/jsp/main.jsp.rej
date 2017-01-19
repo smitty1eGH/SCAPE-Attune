@@ -1,0 +1,35 @@
+--- src/main/webapp/WEB-INF/jsp/main.jsp	2016-02-10 12:49:34.000000000 -0500
++++ src/main/webapp/WEB-INF/jsp/main.jsp	2016-12-19 15:07:58.000000000 -0500
+@@ -4,14 +4,14 @@
+ <head>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+-<title>Attune</title>
++<title>Clairvoyant</title>
+ 
+ <link rel="stylesheet" href="css/bootstrap.css" >
+ <link rel="stylesheet" href="css/bootstrap-theme.css" >
+ <link rel="stylesheet" href="css/jquery.editable-select.css" >
+ <link rel="stylesheet" href="css/c3.css" >
+ <link rel="stylesheet" href="css/jquery-ui.min.css">
+-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
++<link href='css/fonts.googleapis.com.open.sans.css' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/vis.css">
+ <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+@@ -161,12 +163,13 @@
+ 	    <div id="sidebar-wrapper" class="base-color2">
+ 	        <ul class="sidebar-nav" style="margin-top: 10px">
+ 	            <li class="sidebar-item"><a href="dashboard.exec" class="execLink"><span class="glyphicon glyphicon-dashboard"></span>&nbsp;&nbsp;Dashboard</a>
+-				<li class="sidebar-item"><a href="metadata.exec" class="execLink"><span class="glyphicon glyphicon glyphicon-star"></span>&nbsp;&nbsp;Metadata Model</a></li>
+ 				<li class="sidebar-item"><a href="portfolio.exec" class="execLink"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Portfolio</a></li>
++                <li class="sidebar-item"><a href="dataAnalysis.exec" class="execLink"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Data Analysis</a></li>
+                 <li class="sidebar-item" id="timelineMenu" style="display: ${ timelineCreated? 'block':'none' }"><a href="timeline.exec?entity=Ship" class="execLink"><span class="glyphicon glyphicon-time"></span>&nbsp;&nbsp;Timeline</a></li>
+ 				<li class="sidebar-item"><a href="traceability.exec" class="execLink"><span class="glyphicon glyphicon-random"></span>&nbsp;&nbsp;Traceability</a></li>
+-				<li class="sidebar-item"><a href="dataAnalysis.exec" class="execLink"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Data Analysis</a></li>
++				<li class="sidebar-item"><a href="metadata.exec" class="execLink"><span class="glyphicon glyphicon glyphicon-star"></span>&nbsp;&nbsp;Metadata Model</a></li>
+ 				<li class="sidebar-item"><a href="dataImport.exec" class="execLink"><span class="glyphicon glyphicon glyphicon-download-alt"></span>&nbsp;&nbsp;Data Import</a></li>
++				<li class="sidebar-item"><a href="latestUpdates.exec" class="execLink"><span class="glyphicon glyphicon glyphicon-upload"></span>&nbsp;&nbsp;Latest Updates</a></li>
+ 	        </ul>
+ 	    </div>
+ 	    <!-- /#sidebar-wrapper -->

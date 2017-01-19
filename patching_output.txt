@@ -1,0 +1,533 @@
+Hmm...The next patch would create the file .classpath,
+which already exists!  Applying it anyway.
+  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.classpath current/.classpath
+|--- original/.classpath	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.classpath	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .classpath
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .classpath.rej
+Hmm...The next patch would create the file .gitignore,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.gitignore current/.gitignore
+|--- original/.gitignore	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.gitignore	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .gitignore
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .gitignore.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/pom.xml current/pom.xml
+|--- original/pom.xml	2016-05-25 08:21:36.000000000 -0400
+|+++ current/pom.xml	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file pom.xml
+Using Plan A...
+Hunk #1 succeeded at 61.
+Hmm...The next patch would create the file .project,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.project current/.project
+|--- original/.project	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.project	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .project
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .project.rej
+Hmm...The next patch would create the file .settings/.jsdtscope,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/.jsdtscope current/.settings/.jsdtscope
+|--- original/.settings/.jsdtscope	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/.jsdtscope	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/.jsdtscope
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/.jsdtscope.rej
+Hmm...The next patch would create the file .settings/org.eclipse.jdt.core.prefs,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/org.eclipse.jdt.core.prefs current/.settings/org.eclipse.jdt.core.prefs
+|--- original/.settings/org.eclipse.jdt.core.prefs	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/org.eclipse.jdt.core.prefs	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/org.eclipse.jdt.core.prefs
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/org.eclipse.jdt.core.prefs.rej
+Hmm...The next patch would create the file .settings/org.eclipse.m2e.core.prefs,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/org.eclipse.m2e.core.prefs current/.settings/org.eclipse.m2e.core.prefs
+|--- original/.settings/org.eclipse.m2e.core.prefs	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/org.eclipse.m2e.core.prefs	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/org.eclipse.m2e.core.prefs
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/org.eclipse.m2e.core.prefs.rej
+Hmm...The next patch would create the file .settings/org.eclipse.wst.common.component,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/org.eclipse.wst.common.component current/.settings/org.eclipse.wst.common.component
+|--- original/.settings/org.eclipse.wst.common.component	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/org.eclipse.wst.common.component	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/org.eclipse.wst.common.component
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/org.eclipse.wst.common.component.rej
+Hmm...The next patch would create the file .settings/org.eclipse.wst.common.project.facet.core.prefs.xml,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml current/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml
+|--- original/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/org.eclipse.wst.common.project.facet.core.prefs.xml
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/org.eclipse.wst.common.project.facet.core.prefs.xml.rej
+Hmm...The next patch would create the file .settings/org.eclipse.wst.common.project.facet.core.xml,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/org.eclipse.wst.common.project.facet.core.xml current/.settings/org.eclipse.wst.common.project.facet.core.xml
+|--- original/.settings/org.eclipse.wst.common.project.facet.core.xml	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/org.eclipse.wst.common.project.facet.core.xml	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/org.eclipse.wst.common.project.facet.core.xml
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/org.eclipse.wst.common.project.facet.core.xml.rej
+Hmm...The next patch would create the file .settings/org.eclipse.wst.jsdt.ui.superType.container,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/org.eclipse.wst.jsdt.ui.superType.container current/.settings/org.eclipse.wst.jsdt.ui.superType.container
+|--- original/.settings/org.eclipse.wst.jsdt.ui.superType.container	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/org.eclipse.wst.jsdt.ui.superType.container	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/org.eclipse.wst.jsdt.ui.superType.container
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/org.eclipse.wst.jsdt.ui.superType.container.rej
+Hmm...The next patch would create the file .settings/org.eclipse.wst.jsdt.ui.superType.name,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/org.eclipse.wst.jsdt.ui.superType.name current/.settings/org.eclipse.wst.jsdt.ui.superType.name
+|--- original/.settings/org.eclipse.wst.jsdt.ui.superType.name	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/org.eclipse.wst.jsdt.ui.superType.name	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/org.eclipse.wst.jsdt.ui.superType.name
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/org.eclipse.wst.jsdt.ui.superType.name.rej
+Hmm...The next patch would create the file .settings/org.eclipse.wst.validation.prefs,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/.settings/org.eclipse.wst.validation.prefs current/.settings/org.eclipse.wst.validation.prefs
+|--- original/.settings/org.eclipse.wst.validation.prefs	1969-12-31 19:00:00.000000000 -0500
+|+++ current/.settings/org.eclipse.wst.validation.prefs	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file .settings/org.eclipse.wst.validation.prefs
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file .settings/org.eclipse.wst.validation.prefs.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/dao/BaseballCardDao.java current/src/main/java/com/bah/attune/dao/BaseballCardDao.java
+|--- original/src/main/java/com/bah/attune/dao/BaseballCardDao.java	2016-05-25 15:45:42.000000000 -0400
+|+++ current/src/main/java/com/bah/attune/dao/BaseballCardDao.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/dao/BaseballCardDao.java
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hunk #2 succeeded at 37.
+Hunk #3 succeeded at 90.
+Hunk #4 succeeded at 99.
+Hunk #5 succeeded at 122.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/dao/BaseDao.java current/src/main/java/com/bah/attune/dao/BaseDao.java
+|--- original/src/main/java/com/bah/attune/dao/BaseDao.java	2016-05-26 16:33:50.000000000 -0400
+|+++ current/src/main/java/com/bah/attune/dao/BaseDao.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/dao/BaseDao.java
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hunk #2 succeeded at 8.
+Hunk #3 succeeded at 58.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/dao/ImportDao.java current/src/main/java/com/bah/attune/dao/ImportDao.java
+|--- original/src/main/java/com/bah/attune/dao/ImportDao.java	2016-05-25 09:53:14.000000000 -0400
+|+++ current/src/main/java/com/bah/attune/dao/ImportDao.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/dao/ImportDao.java
+Using Plan A...
+Hunk #1 succeeded at 19.
+Hunk #2 succeeded at 40.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/ldap/CustomUserDetailsMapper.java current/src/main/java/com/bah/attune/ldap/CustomUserDetailsMapper.java
+|--- original/src/main/java/com/bah/attune/ldap/CustomUserDetailsMapper.java	1969-12-31 19:00:00.000000000 -0500
+|+++ current/src/main/java/com/bah/attune/ldap/CustomUserDetailsMapper.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/ldap/CustomUserDetailsMapper.java
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/service/BaseballCardService.java current/src/main/java/com/bah/attune/service/BaseballCardService.java
+|--- original/src/main/java/com/bah/attune/service/BaseballCardService.java	2016-05-26 16:33:50.000000000 -0400
+|+++ current/src/main/java/com/bah/attune/service/BaseballCardService.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/service/BaseballCardService.java
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hunk #2 succeeded at 15.
+Hunk #3 succeeded at 80.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/service/ImportService.java current/src/main/java/com/bah/attune/service/ImportService.java
+|--- original/src/main/java/com/bah/attune/service/ImportService.java	2016-05-25 08:21:12.000000000 -0400
+|+++ current/src/main/java/com/bah/attune/service/ImportService.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/service/ImportService.java
+Using Plan A...
+Hunk #1 succeeded at 384.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/service/SecurityService.java current/src/main/java/com/bah/attune/service/SecurityService.java
+|--- original/src/main/java/com/bah/attune/service/SecurityService.java	2016-02-10 17:18:00.000000000 -0500
+|+++ current/src/main/java/com/bah/attune/service/SecurityService.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/service/SecurityService.java
+Using Plan A...
+Hunk #1 succeeded at 24.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/web/BaseballCardController.java current/src/main/java/com/bah/attune/web/BaseballCardController.java
+|--- original/src/main/java/com/bah/attune/web/BaseballCardController.java	2015-12-11 17:18:16.000000000 -0500
+|+++ current/src/main/java/com/bah/attune/web/BaseballCardController.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/web/BaseballCardController.java
+Using Plan A...
+Hunk #1 succeeded at 2.
+Hunk #2 succeeded at 16.
+Hunk #3 succeeded at 33.
+Hunk #4 succeeded at 67.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/web/DashboardController.java current/src/main/java/com/bah/attune/web/DashboardController.java
+|--- original/src/main/java/com/bah/attune/web/DashboardController.java	2016-02-11 14:38:38.000000000 -0500
+|+++ current/src/main/java/com/bah/attune/web/DashboardController.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/web/DashboardController.java
+Using Plan A...
+Hunk #1 succeeded at 91.
+Hunk #2 succeeded at 98.
+Hunk #3 succeeded at 112.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/java/com/bah/attune/web/MainController.java current/src/main/java/com/bah/attune/web/MainController.java
+|--- original/src/main/java/com/bah/attune/web/MainController.java	2016-02-10 12:46:04.000000000 -0500
+|+++ current/src/main/java/com/bah/attune/web/MainController.java	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/java/com/bah/attune/web/MainController.java
+Using Plan A...
+Hunk #1 succeeded at 67 with fuzz 2 (offset 6 lines).
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/resources/datasource.xml current/src/main/resources/datasource.xml
+|--- original/src/main/resources/datasource.xml	2016-06-03 11:02:18.000000000 -0400
+|+++ current/src/main/resources/datasource.xml	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/resources/datasource.xml
+Using Plan A...
+Hunk #1 succeeded at 16.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/resources/log4j.xml current/src/main/resources/log4j.xml
+|--- original/src/main/resources/log4j.xml	2016-05-24 16:30:46.000000000 -0400
+|+++ current/src/main/resources/log4j.xml	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/resources/log4j.xml
+Using Plan A...
+Hunk #1 succeeded at 12.
+Hunk #2 succeeded at 34.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/resources/security_testcluster.xml current/src/main/resources/security_testcluster.xml
+|--- original/src/main/resources/security_testcluster.xml	1969-12-31 19:00:00.000000000 -0500
+|+++ current/src/main/resources/security_testcluster.xml	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/resources/security_testcluster.xml
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/resources/security.xml current/src/main/resources/security.xml
+|--- original/src/main/resources/security.xml	2016-02-10 17:32:48.000000000 -0500
+|+++ current/src/main/resources/security.xml	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/resources/security.xml
+Using Plan A...
+Hunk #1 succeeded at 31.
+Hmm...The next patch would create the file src/main/webapp/css/fonts.googleapis.com.open.sans.css,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/css/fonts.googleapis.com.open.sans.css current/src/main/webapp/css/fonts.googleapis.com.open.sans.css
+|--- original/src/main/webapp/css/fonts.googleapis.com.open.sans.css	1969-12-31 19:00:00.000000000 -0500
+|+++ current/src/main/webapp/css/fonts.googleapis.com.open.sans.css	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/css/fonts.googleapis.com.open.sans.css
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file src/main/webapp/css/fonts.googleapis.com.open.sans.css.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/css/main.css current/src/main/webapp/css/main.css
+|--- original/src/main/webapp/css/main.css	2015-12-11 17:54:00.000000000 -0500
+|+++ current/src/main/webapp/css/main.css	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/css/main.css
+Using Plan A...
+Hunk #1 succeeded at 36.
+Hunk #2 succeeded at 96.
+Hunk #3 succeeded at 263.
+Hunk #4 succeeded at 1137.
+Hmm...The next patch would create the file src/main/webapp/js/auditView.js,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/js/auditView.js current/src/main/webapp/js/auditView.js
+|--- original/src/main/webapp/js/auditView.js	1969-12-31 19:00:00.000000000 -0500
+|+++ current/src/main/webapp/js/auditView.js	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/js/auditView.js
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file src/main/webapp/js/auditView.js.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/js/baseballCard.js current/src/main/webapp/js/baseballCard.js
+|--- original/src/main/webapp/js/baseballCard.js	1969-12-31 19:00:00.000000000 -0500
+|+++ current/src/main/webapp/js/baseballCard.js	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/js/baseballCard.js
+Using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...The next patch would create the file src/main/webapp/js/jquery.dataTables.min.js,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/js/jquery.dataTables.min.js current/src/main/webapp/js/jquery.dataTables.min.js
+|--- original/src/main/webapp/js/jquery.dataTables.min.js	1969-12-31 19:00:00.000000000 -0500
+|+++ current/src/main/webapp/js/jquery.dataTables.min.js	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/js/jquery.dataTables.min.js
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file src/main/webapp/js/jquery.dataTables.min.js.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/baseballCard.jsp current/src/main/webapp/WEB-INF/jsp/baseballCard.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/baseballCard.jsp	2016-05-26 09:24:58.000000000 -0400
+|+++ current/src/main/webapp/WEB-INF/jsp/baseballCard.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/baseballCard.jsp
+Using Plan A...
+Hunk #1 succeeded at 180.
+Hunk #2 succeeded at 189.
+Hunk #3 succeeded at 213.
+Hunk #4 succeeded at 235.
+Hunk #5 succeeded at 305.
+Hunk #6 succeeded at 332.
+Hunk #7 succeeded at 375.
+Hunk #8 succeeded at 393.
+Hunk #9 succeeded at 406.
+Hunk #10 succeeded at 441.
+Hunk #11 succeeded at 512.
+Hunk #12 succeeded at 601.
+Hunk #13 succeeded at 627.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/configDashboard.jsp current/src/main/webapp/WEB-INF/jsp/configDashboard.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/configDashboard.jsp	2015-12-11 15:06:36.000000000 -0500
+|+++ current/src/main/webapp/WEB-INF/jsp/configDashboard.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/configDashboard.jsp
+Using Plan A...
+Hunk #1 succeeded at 257.
+Hunk #2 succeeded at 288.
+Hunk #3 succeeded at 484.
+Hunk #4 succeeded at 502.
+Hunk #5 succeeded at 565.
+Hunk #6 succeeded at 580.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/dashboard.jsp current/src/main/webapp/WEB-INF/jsp/dashboard.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/dashboard.jsp	2016-05-25 09:34:40.000000000 -0400
+|+++ current/src/main/webapp/WEB-INF/jsp/dashboard.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/dashboard.jsp
+Using Plan A...
+Hunk #1 succeeded at 104.
+Hunk #2 succeeded at 199.
+Hunk #3 succeeded at 297.
+Hunk #4 succeeded at 355.
+Hunk #5 succeeded at 371.
+Hunk #6 succeeded at 402.
+Hunk #7 succeeded at 415.
+Hunk #8 succeeded at 443.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/dataAnalysis.jsp current/src/main/webapp/WEB-INF/jsp/dataAnalysis.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/dataAnalysis.jsp	2015-12-11 17:50:28.000000000 -0500
+|+++ current/src/main/webapp/WEB-INF/jsp/dataAnalysis.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/dataAnalysis.jsp
+Using Plan A...
+Hunk #1 succeeded at 132.
+Hunk #2 succeeded at 152.
+Hunk #3 succeeded at 318.
+Hunk #4 succeeded at 349.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/dataAnalysisResults.jsp current/src/main/webapp/WEB-INF/jsp/dataAnalysisResults.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/dataAnalysisResults.jsp	2016-05-25 09:35:06.000000000 -0400
+|+++ current/src/main/webapp/WEB-INF/jsp/dataAnalysisResults.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/dataAnalysisResults.jsp
+Using Plan A...
+Hunk #1 succeeded at 25.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/dataImport.jsp current/src/main/webapp/WEB-INF/jsp/dataImport.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/dataImport.jsp	2016-02-10 12:49:34.000000000 -0500
+|+++ current/src/main/webapp/WEB-INF/jsp/dataImport.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/dataImport.jsp
+Using Plan A...
+Hunk #1 succeeded at 127.
+Hmm...The next patch would create the file src/main/webapp/WEB-INF/jsp/latestUpdates.jsp,
+which already exists!  Applying it anyway.
+  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/latestUpdates.jsp current/src/main/webapp/WEB-INF/jsp/latestUpdates.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/latestUpdates.jsp	1969-12-31 19:00:00.000000000 -0500
+|+++ current/src/main/webapp/WEB-INF/jsp/latestUpdates.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/latestUpdates.jsp
+Using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file src/main/webapp/WEB-INF/jsp/latestUpdates.jsp.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/login.jsp current/src/main/webapp/WEB-INF/jsp/login.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/login.jsp	2016-02-09 11:45:06.000000000 -0500
+|+++ current/src/main/webapp/WEB-INF/jsp/login.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/login.jsp
+Using Plan A...
+Hunk #1 FAILED at 4.
+Hunk #2 succeeded at 80.
+1 out of 2 hunks FAILED -- saving rejects to file src/main/webapp/WEB-INF/jsp/login.jsp.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/main.jsp current/src/main/webapp/WEB-INF/jsp/main.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/main.jsp	2016-02-10 12:49:34.000000000 -0500
+|+++ current/src/main/webapp/WEB-INF/jsp/main.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/main.jsp
+Using Plan A...
+Hunk #1 FAILED at 4.
+Hunk #2 succeeded at 19.
+Hunk #3 succeeded at 39.
+Hunk #4 FAILED at 161.
+2 out of 4 hunks FAILED -- saving rejects to file src/main/webapp/WEB-INF/jsp/main.jsp.rej
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/portfolio.jsp current/src/main/webapp/WEB-INF/jsp/portfolio.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/portfolio.jsp	2016-05-24 14:39:02.000000000 -0400
+|+++ current/src/main/webapp/WEB-INF/jsp/portfolio.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/portfolio.jsp
+Using Plan A...
+Hunk #1 succeeded at 637.
+Hunk #2 succeeded at 652.
+Hunk #3 succeeded at 668.
+Hunk #4 succeeded at 679.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -brauN -x '*.xls' -x '*.png' --strip-trailing-cr original/src/main/webapp/WEB-INF/jsp/timeline.jsp current/src/main/webapp/WEB-INF/jsp/timeline.jsp
+|--- original/src/main/webapp/WEB-INF/jsp/timeline.jsp	2016-01-04 12:07:20.000000000 -0500
+|+++ current/src/main/webapp/WEB-INF/jsp/timeline.jsp	2016-12-19 15:07:58.000000000 -0500
+--------------------------
+patching file src/main/webapp/WEB-INF/jsp/timeline.jsp
+Using Plan A...
+Hunk #1 succeeded at 338.
+done

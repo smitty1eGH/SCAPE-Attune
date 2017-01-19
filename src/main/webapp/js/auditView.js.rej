@@ -1,0 +1,61 @@
+--- src/main/webapp/js/auditView.js	1969-12-31 19:00:00.000000000 -0500
++++ src/main/webapp/js/auditView.js	2016-12-19 15:07:58.000000000 -0500
+@@ -0,0 +1,58 @@
++$(document).ready(function() {
++
++    var base_url = window.location.origin;
++    var hostname = window.location.hostname;
++    var port = ':8780';
++    var mainPort = ':8180';
++    var scheme = 'http://';
++    // $.getJSON(scheme + hostname + port + '/attune/services/audit', function (data) {
++    $.getJSON('http://docker-attune-services:8780/attune/services/audit', function (data) {
++        console.log(data);
++        var audit = data;
++        var txt = "";
++        console.log(audit);
++        for (x in audit) {
++            txt += "<tr><td>"+audit[x].type+"</td><td><a class='baseballCardLink' href='#' data-entity="+audit[x].type+" data-name="+audit[x].name+">"+audit[x].name+"</a></td><td>"+(new Date(audit[x].timestamp)).toUTCString()+"</td><td>"+audit[x].action+"</td></tr>";
++        }
++
++        if(txt != ""){
++            $("table tbody").append(txt);
++            $('#auditTable').DataTable({
++                "order": [[2,"desc"]]
++            });
++        }
++    });
++});
++
++ $('.baseballCardLink').click(function(){
++
++    	var baseballEntity = $(this).attr('data-entity');
++    	var baseballName = $(this).attr('data-name');
++
++    	localStorage.setItem("originalEntity", baseballEntity);
++    	localStorage.setItem("originalName", baseballName);
++
++		$('#baseballCardModal').modal('show');
++
++		var url = "baseballCard.exec?entity="+encodeURIComponent(baseballEntity)+"&name="+encodeURIComponent(baseballName);
++
++		$("#baseballContent").load(url);
++    });
++
++//Still working on this method
++function getDate(timestamp) {
++// Create a new JavaScript Date object based on the timestamp
++// multiplied by 1000 so that the argument is in milliseconds, not seconds.
++    var date = new Date(timestamp * 1000);
++// Hours part from the timestamp
++    var hours = date.getHours();
++// Minutes part from the timestamp
++    var minutes = "0" + date.getMinutes();
++// Seconds part from the timestamp
++    var seconds = "0" + date.getSeconds();
++
++// Will display time in 10:30:23 format
++    var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
++
++    return date +" "+ formattedTime;
++}
