@@ -24,17 +24,18 @@ public class SecurityService implements UserDetailsService
     {
         AttuneUser user = null;
         
-        //if ( username.equals("Attune"))
-        user = new AttuneUser(username, "");
+        if ( username.equals("Attune"))
+          user = new AttuneUser("Attune", "Attune");
+        //user = new AttuneUser(username, "");
 
         boolean enabled = true;
         boolean accountNonExpired = true;
         boolean credentialsNonExpired = true;
         boolean accountNonLocked = true;
 
-        return new User(user.getUsername(), user.getPassword(), enabled, accountNonExpired, 
+        return new User(user.getUsername(), user.getPassword(), enabled, accountNonExpired,
                         credentialsNonExpired, accountNonLocked, getAuthorities());
-        
+
     }
 
 

@@ -31,7 +31,7 @@ import com.bah.attune.service.SecurityService;
     {
         model.addAttribute("username", SecurityService.getUserName());
         model.addAttribute("timelineCreated",  (boolean)service.invokeDao("timelineCreated"));
-        
+
         File logo = new File(System.getProperty("attune.root") + "/icons/logo.png");
 
         if ( logo.exists() )
@@ -54,7 +54,7 @@ import com.bah.attune.service.SecurityService;
     {
         return service.getMetadata();
     }
-    
+
     @RequestMapping("getTimelineCreated.exec")
     @ResponseBody
     public boolean getTimelineCreated() throws AttuneException
@@ -68,9 +68,9 @@ import com.bah.attune.service.SecurityService;
         return "latestUpdates";
     }
 
-    @RequestMapping("latestUpdates.exec")
+  /*  @RequestMapping("latestUpdates.exec")
     public String latestUpdates()
     {
         return "latestUpdates";
-    }
+    } */
 }
